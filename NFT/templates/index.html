@@ -1,0 +1,97 @@
+{% extends 'header.html' %}
+{% block content %}
+{% load static %}
+	<div class="pres_card_display">
+		<div class="flip-card">
+	      <div class="flip-card-inner">
+	        <div class="flip-card-front">
+	          <img src="{% static 'NFT/Card/Isaiah Hartenstein_front.png' %}" alt="Front" class="image_player">
+	        </div>
+	        <div class="flip-card-back">
+	          <img src="{% static 'NFT/Card/Isaiah Hartenstein_back.png' %}" alt="Back" class="image_player">
+	        </div>
+	    </div>
+	</div>
+	    <div class="flip-card">
+	      <div class="flip-card-inner">
+	        <div class="flip-card-front">
+	          <img src="{% static 'NFT/Card/Luka Doncic_front.png' %}" alt="Front" class="image_player">
+	        </div>
+	        <div class="flip-card-back">
+	          <img src="{% static 'NFT/Card/Luka Doncic_back.png' %}" alt="Back" class="image_player">
+	        </div>
+	    </div>
+	</div>
+	    <div class="flip-card">
+	      <div class="flip-card-inner">
+	        <div class="flip-card-front">
+	          <img src="{% static 'NFT/Card/Kevin Durant_front.png' %}" alt="Front" class="image_player">
+	        </div>
+	        <div class="flip-card-back">
+	          <img src="{% static 'NFT/Card/Kevin Durant_back.png' %}" alt="Back" class="image_player">
+	        </div>
+	    </div>
+	</div>
+	    <div class="flip-card">
+	      <div class="flip-card-inner">
+	        <div class="flip-card-front">
+	          <img src="{% static 'NFT/Card/Giannis Antetokounmpo_front.png' %}" alt="Front" class="image_player">
+	        </div>
+	        <div class="flip-card-back">
+	          <img src="{% static 'NFT/Card/Giannis Antetokounmpo_back.png' %}" alt="Back" class="image_player">
+	        </div>
+	    </div>
+		</div>
+	    <div class="flip-card">
+		      <div class="flip-card-inner">
+		        <div class="flip-card-front">
+		          <img src="{% static 'NFT/Card/Paul George_front.png' %}" alt="Front" class="image_player">
+		        </div>
+		        <div class="flip-card-back">
+		          <img src="{% static 'NFT/Card/Paul George_back.png' %}" alt="Back" class="image_player">
+		        </div>
+		    </div>
+		</div>
+	</div>
+
+	<div class="block_A">
+		<div class="Text_A">
+			<h1>What is NBaller ?</h1>
+			<p>It's a mix between a fantasy league and a card game. Show that you are the strongest by choosing the NBA player who will make the best score #NBL of the night. If this one is a TOP 10 of the night then you win a unique animated card of your player with his stats of the night. The goal is to collect the most cards to impress the world.</p>
+			<p>To ensure that your card is unique, it will be integrated into the NFT etherum system. This card will belong to you entirely and you will be free to exchange it, resell it, or just flex.</p>
+			<div class="OS_button"><a class = "OS_text" target="_blank" href="https://opensea.io/collection/nball-cards">Reach Open SEA</a></div>
+		</div>
+	</div>
+	
+	<div class="block_B">
+		<div class="Text_B">
+			<h1>How NBA points has been calculed</h1>
+			<p>#NBL points is calculed every day according to the performance of the players: his shots, points, rebounds, passes, steals, blocks and even his lost balls. And since a player is nothing without his team, a win/loss bonus will be applied to the final score</p>
+			<div class="Calcul_pts">
+				<div class="image_pts"><img src="{% static 'NFT/Card/Devin Booker_back.png' %}" style=" width:48%;">
+			<img src="{% static 'NFT/Card/Devin Booker_front.png' %}" style=" width:48%;">
+			</div><p class="bold"> 49 points + 10 assists + 4 rebounds + 1 block + 3 steals - 0 turnovers + 16 successful shots - 9 missed shots + boxscore  </p><p class="bold">=</p><p class="bold" style="font-size:30px; color: #a855f7;">88 NBP</p>
+			</div>
+			<p>Every day NBALLER receives the top 10 and creates 1 NFT of each according to its ranking</p>
+			<div class="presentoire_template">
+				<div class="image_presentoire">
+					<img src="{% static 'NFT/Or.png' %}" style=" width:90%;">
+					<p class="bold">RANK #1     </p>
+				</div>
+				<div class="image_presentoire">
+					<img src="{% static 'NFT/Argent.png' %}" style=" width:90%;">
+					<p class="bold">RANK #2 </p>
+				</div>
+				<div class="image_presentoire">
+					<img src="{% static 'NFT/Bronze.png' %}" style=" width:90%;">
+					<p class="bold">RANK #3 </p>
+				</div>
+				<div class="image_presentoire">
+					<img src="{% static 'NFT/Blue.png' %}" style="width:90%;">
+					<p class="bold">RANK #4-10</p>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}

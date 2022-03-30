@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{% load static %}
+		<link rel="stylesheet" href="{% static 'NFT/Style.css' %}">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<header>
+			<div class="left_header">
+				<h1>Nballer card collection</h1>					
+			</div>
+			<div class="right_header">
+				<div class="socials_header">
+					<a class ="fa fa-instagram" target="_blank" href="https://www.instagram.com/nball_off"></a></li>
+					<a class ="fa fa-twitter" target="_blank" href="https://twitter.com/home"></a></li>
+					<a class ="fa fa-buysellads" target="_blank" href="https://opensea.io/collection/nball-cards"></a></li>
+				</div>
+								
+			</div>
+		</header>
+		{% block content %} {% endblock %}
+		<footer>
+			<div class="socials_footer">
+				<a class ="fa fa-instagram" target="_blank" href="https://www.instagram.com/nball_off"></a></li>
+				<a class ="fa fa-twitter" target="_blank" href="https://twitter.com/home"></a></li>
+				<a class ="fa fa-buysellads" target="_blank" href="https://opensea.io/collection/nball-cards"></a></li>
+			</div>
+		</footer>
+	</body>
+</html>
+
+	
