@@ -67,8 +67,7 @@ footer .fa{
 	opacity: 0.7;
 }
 .OS_button{
-	
-	text-align: center;
+
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -105,7 +104,7 @@ footer .fa{
 	padding-bottom: 15px;
 }
 .Text_A{
-	width: 50%;
+	width: 70%;
 	margin: auto;
 	color: #9ca3af;
 }
@@ -115,7 +114,7 @@ footer .fa{
 	background-color: #1f2937;
 }
 .Text_B{
-	width: 50%;
+	width: 70%;
 	margin: auto;
 	color: #9ca3af;
 }
@@ -124,16 +123,37 @@ footer .fa{
   src: url(college.ttf);
 }
 
+@font-face {
+  font-family: BOFont;
+  src: url(BowlbyOneSC-Regular.ttf);
+}
 
 h1{
 	font-family: myFirstFont;
 	color : #a855f7;
 	letter-spacing: 2px;
+	font-size: 47px;
+	text-align: center;
 }
 p{
-	font-family: Arial;
+	font-family: Antic, sans-serif;
 	color: lightgray;
+	font-size: 22.2px;
+	text-align: center;
 }
+h2{
+	padding-top: 50px;
+	font-family: BOFont;
+	color : #a855f7;
+	letter-spacing: 2px;
+	font-size: 20px;
+	text-align: center;
+}
+.button_os{
+	display: flex;
+	justify-content: space-around;
+}
+
 .bold{
 	font-weight: bold;
 }
@@ -218,7 +238,7 @@ p{
 .Calcul_pts{
 	margin: auto;
 	text-align: center;
-	width: 60%;
+	width: 50%;
 	border: 7px solid white;
 	border-radius: 10px;
 	padding: 10px;
@@ -230,12 +250,14 @@ p{
 }
 
 .presentoire_template{
+	width: 80%;
 	border-radius: 10px;
 	border: 7px solid white;
 	display: flex;
-	justify-content: space-around;
 	padding: 15px;
 	padding-bottom: 5px;
+	justify-content: center;
+	margin: auto;
 }
 
 .image_presentoire{
@@ -244,4 +266,10 @@ p{
 .name_presentation{
 	display: flex;
 	justify-content: space-around;
+}
+
+.slide{
+	width: 65%;
+	border-top: 3px solid white;
+	margin: auto;
 }
